@@ -1,0 +1,11 @@
+let number1 = document.getElementById('number1');
+let number2 = document.getElementById('number2');
+let output = document.getElementById('output');
+
+const doMath = () => {
+  let result = (number1.value || 0) * (number2.value || 0);
+  console.log(result)
+  output.innerHTML = result;
+}
+
+doMath();
