@@ -1,0 +1,9 @@
+body {
+  background-color: #6F5B3E;
+  color: white;
+  font-family: 'Source Code Pro', 'sans-serif';
+}
+
+.math {
+  padding: 20px;
+}
